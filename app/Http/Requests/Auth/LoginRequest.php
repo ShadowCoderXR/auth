@@ -9,6 +9,9 @@ use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
 
+/**
+ * @property mixed $email
+ */
 class LoginRequest extends FormRequest
 {
     /**
