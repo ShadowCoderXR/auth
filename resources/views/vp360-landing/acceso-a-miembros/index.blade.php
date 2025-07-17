@@ -7,13 +7,13 @@
         document.documentElement.className = 'js';
     </script>
     <title>VP360° | Acceso a miembros</title>
-    <link rel="icon" href="/vp360.landing.assets/wp-content/uploads/2021/08/cropped-vp-360-b-02-270x270.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="{{ asset('vp360.landing.assets/wp-content/uploads/2021/08/cropped-vp-360-b-02-270x270.png') }}" sizes="32x32" type="image/png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=onloadTurnstileCallback" async defer></script>
 
-    <link rel="apple-touch-icon" href="../vp360.landing.assets/wp-content/uploads/2021/08/cropped-vp-360-b-02-270x270.png">
-    <meta name="msapplication-TileImage" content="../vp360.landing.assets/wp-content/uploads/2021/08/cropped-vp-360-b-02-270x270.png">
+    <link rel="apple-touch-icon" href="{{ asset('vp360.landing.assets/wp-content/uploads/2021/08/cropped-vp-360-b-02-270x270.png') }}">
+    <meta name="msapplication-TileImage" content="{{ asset('vp360.landing.assets/wp-content/uploads/2021/08/cropped-vp-360-b-02-270x270.png') }}">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <style id="et-divi-open-sans-inline-css">
@@ -1209,8 +1209,8 @@
             }
         ;
     </script>
-    <link rel='stylesheet' id='dashicons-css' href='../vp360.landing.assets/wp-includes/css/dashicons.min.css?ver=6.0' type='text/css' media='all'/>
-    <link rel='stylesheet' id='admin-bar-css' href='../vp360.landing.assets/wp-includes/css/admin-bar.min.css?ver=6.0' type='text/css' media='all'/>
+    <link rel='stylesheet' id='dashicons-css' href='{{ asset('vp360.landing.assets/wp-includes/css/dashicons.min.css?ver=6.0') }}' type='text/css' media='all'/>
+    <link rel='stylesheet' id='admin-bar-css' href='{{ asset('vp360.landing.assets/wp-includes/css/admin-bar.min.css?ver=6.0') }}' type='text/css' media='all'/>
     <style id='wp-block-library-theme-inline-css' type='text/css'>
         .wp-block-audio figcaption {
             color: #555;
@@ -1378,7 +1378,7 @@
             margin-bottom: 0
         }
     </style>
-    <link rel='stylesheet' id='wpforms-gutenberg-form-selector-css' href='../vp360.landing.assets/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.min.css?ver=1.7.4.2' type='text/css' media='all'/>
+    <link rel='stylesheet' id='wpforms-gutenberg-form-selector-css' href='{{ asset('vp360.landing.assets/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.min.css?ver=1.7.4.2') }}' type='text/css' media='all'/>
     <style id='global-styles-inline-css' type='text/css'>
         body {
             --wp--preset--color--black: #000000;
@@ -6416,20 +6416,20 @@
             }
         }
     </style>
-    <link rel='stylesheet' id='wpforms-admin-bar-css' href='../vp360.landing.assets/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.7.4.2' type='text/css' media='all'/>
+    <link rel='stylesheet' id='wpforms-admin-bar-css' href='{{ asset('vp360.landing.assets/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.7.4.2') }}' type='text/css' media='all'/>
     <style id='wpforms-admin-bar-inline-css' type='text/css'>
         #wpadminbar .wpforms-menu-notification-counter, #wpadminbar .wpforms-menu-notification-indicator {
             background-color: #d63638 !important;
             color: #ffffff !important;
         }
     </style>
-    <link rel="https://api.w.org/" href="../vp360.landing.assets/wp-json/"/>
-    <link rel="alternate" type="application/json" href="../vp360.landing.assets/wp-json/wp/v2/pages/132"/>
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../vp360.landing.assets/xmlrpc.php?rsd"/>
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../vp360.landing.assets/wp-includes/wlwmanifest.xml"/>
-    <link rel='shortlink' href='../vp360.landing.assets/?p=132'/>
-    <link rel="alternate" type="application/json+oembed" href="../vp360.landing.assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvp360.com.mx%2Fmiembros2%2F"/>
-    <link rel="alternate" type="text/xml+oembed" href="../vp360.landing.assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvp360.com.mx%2Fmiembros2%2F&#038;format=xml"/>
+    <link rel="https://api.w.org/" href="{{ asset('vp360.landing.assets/wp-json/') }}"/>
+    <link rel="alternate" type="application/json" href="{{ asset('vp360.landing.assets/wp-json/wp/v2/pages/132') }}"/>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{ asset('vp360.landing.assets/xmlrpc.php?rsd') }}"/>
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{ asset('vp360.landing.assets/wp-includes/wlwmanifest.xml') }}"/>
+    <link rel='shortlink' href='{{ asset('vp360.landing.assets/?p=132') }}'/>
+    <link rel="alternate" type="application/json+oembed" href="{{ asset('vp360.landing.assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvp360.com.mx%2Fmiembros2%2F') }}"/>
+    <link rel="alternate" type="text/xml+oembed" href="{{ asset('vp360.landing.assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvp360.com.mx%2Fmiembros2%2F&#038;format=xml') }}"/>
     <style type="text/css">
         #wpadminbar ul li#wp-admin-bar-siteground-wizard-dashboard {
             padding-top: 12px;
@@ -6900,7 +6900,72 @@
             }
         }
     </style>
-    <link rel="preload" as="style" id="et-core-unified-tb-0-tb-223-tb-0-deferred-132-cached-inline-styles" href="../vp360.landing.assets/wp-content/et-cache/132/et-core-unified-tb-0-tb-223-tb-0-deferred-132.min.css?ver=1656959589" onload="this.onload=null;this.rel='stylesheet';"/>
+    <style>
+        .fade-out {
+            animation: fadeOut 0.4s forwards;
+        }
+
+        .fade-in {
+            animation: fadeIn 0.4s forwards;
+        }
+
+        @keyframes fadeOut {
+            from { opacity: 1; transform: translateY(0); }
+            to { opacity: 0; transform: translateY(-20px); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+    <style>
+        .sso-separator {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #aaa;
+            margin: 25px 0;
+        }
+        .sso-separator::before,
+        .sso-separator::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #ddd;
+        }
+        .sso-separator:not(:empty)::before {
+            margin-right: .25em;
+        }
+        .sso-separator:not(:empty)::after {
+            margin-left: .25em;
+        }
+
+        .google-sso-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            background-color: #ffffff;
+            color: #3c4043;
+            font-family: 'Poppins', Helvetica, Arial, sans-serif !important;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color .3s;
+        }
+        .google-sso-button:hover {
+            background-color: #f5f5f5;
+        }
+        .google-sso-button img {
+            width: 18px;
+            height: 18px;
+            margin-right: 12px;
+        }
+    </style>
+    <link rel="preload" as="style" id="et-core-unified-tb-0-tb-223-tb-0-deferred-132-cached-inline-styles" href="{{ asset('vp360.landing.assets/wp-content/et-cache/132/et-core-unified-tb-0-tb-223-tb-0-deferred-132.min.css?ver=1656959589') }}" onload="this.onload=null;this.rel='stylesheet';"/>
 </head>
 <body data-rsssl=1 class="page-template-default page page-id-132 logged-in admin-bar no-customize-support et-tb-has-template et-tb-has-header et-tb-header-disabled et-tb-has-body et-tb-has-footer et-tb-footer-disabled et_pb_button_helper_class et_cover_background et_pb_gutter windows et_pb_gutters3 et_pb_pagebuilder_layout et_divi_theme et-db">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
@@ -7032,7 +7097,7 @@
                                                     <nav class="et-menu-nav">
                                                         <ul id="menu-menu-superior" class="et-menu nav" style="margin-right: -202px !important">
                                                             <li id="menu-item-2280" class="et_pb_menu_page_id-2280 menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2280">
-                                                                <a class="et_pb_button et_pb_button_1_tb_body et_pb_bg_layout_light" style="font-size:14px; padding-bottom:2px" href="{{ route('landing.miembros') }}" aria-current="page">ACCESO A LA PLATAFORMA</a>
+                                                                <a class="et_pb_button et_pb_button_1_tb_body et_pb_bg_layout_light" style="font-size:14px; padding-bottom:2px" href="#" aria-current="page">ACCESO A LA PLATAFORMA</a>
                                                             </li>
                                                             <!--<li id="menu-item-2279" class="et_pb_menu_page_id-2279 menu-item menu-item-type-custom menu-item-object-custom menu-item-2279">
                                                                         <a href="https://comunidadvp360.com/">COMUNIDAD VP360°</a>
@@ -7073,9 +7138,18 @@
                             <div class="et_pb_row et_pb_row_2_tb_body et_pb_row--with-menu" style="padding-bottom: 10px;">
                                 <div class="et_pb_column et_pb_column_1_4 et_pb_column_4_tb_body  et_pb_css_mix_blend_mode_passthrough">
                                     <div class="et_pb_module et_pb_image et_pb_image_0_tb_body">
-                                        <a href="{{ route('landing.page') }}">
+                                        <a href="#">
                                                     <span class="et_pb_image_wrap ">
-                                                        <img width="7080" height="4113" src="../vp360.landing.assets/wp-content/uploads/2021/08/1-logo-300x174-1.png" alt="" title="1-logo-300x174-1" srcset="../vp360.landing.assets/wp-content/uploads/2021/08/1-logo-300x174-1.png 7080w, ../vp360.landing.assets/wp-content/uploads/2021/08/1-logo-300x174-1-1280x744.png 1280w, ../vp360.landing.assets/wp-content/uploads/2021/08/1-logo-300x174-1-980x569.png 980w, ../vp360.landing.assets/wp-content/uploads/2021/08/1-logo-300x174-1-480x279.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 7080px, 100vw" class="wp-image-153"/>
+                                                        <img width="7080" height="4113" src="{{ asset('vp360.landing.assets/wp-content/uploads/2021/08/1-logo-300x174-1.png') }}" alt="" title="1-logo-300x174-1"
+                                                             srcset="
+                                                                {{ asset('vp360.landing.assets/wp-content/uploads/2021/08/1-logo-300x174-1.png') }} 7080w,
+                                                                {{ asset('vp360.landing.assets/wp-content/uploads/2021/08/1-logo-300x174-1-1280x744.png') }} 1280w,
+                                                                {{ asset('vp360.landing.assets/wp-content/uploads/2021/08/1-logo-300x174-1-980x569.png') }} 980w,
+                                                                {{ asset('vp360.landing.assets/wp-content/uploads/2021/08/1-logo-300x174-1-480x279.png') }} 480w
+                                                            "
+                                                             sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 7080px, 100vw"
+                                                             class="wp-image-153"
+                                                        />
                                                     </span>
                                         </a>
                                     </div>
@@ -7088,25 +7162,25 @@
                                                     <nav class="et-menu-nav">
                                                         <ul id="menu-menu-nuevo" class="et-menu nav">
                                                             <li id="menu-item-2281" class="et_pb_menu_page_id-2281 menu-item menu-item-type-custom menu-item-object-custom menu-item-2281">
-                                                                <a href="{{ route('landing.page') }}#nosotros">Acerca de nosotros</a>
+                                                                <a href="#">Acerca de nosotros</a>
                                                             </li>
                                                             <li id="menu-item-2282" class="et_pb_menu_page_id-2282 menu-item menu-item-type-custom menu-item-object-custom menu-item-2282">
-                                                                <a href="{{ route('landing.page') }}#funcion">Características</a>
+                                                                <a href="#">Características</a>
                                                             </li>
                                                             <li id="menu-item-2283" class="et_pb_menu_page_id-2283 menu-item menu-item-type-custom menu-item-object-custom menu-item-2283">
-                                                                <a href="{{ route('landing.page') }}#alcances">Alcances</a>
+                                                                <a href="#">Alcances</a>
                                                             </li>
                                                             <li id="menu-item-2284" class="et_pb_menu_page_id-2284 menu-item menu-item-type-custom menu-item-object-custom menu-item-2284">
-                                                                <a href="{{ route('landing.page') }}#cobertura">Cobertura</a>
+                                                                <a href="#">Cobertura</a>
                                                             </li>
                                                             <li id="menu-item-2285" class="et_pb_menu_page_id-2285 menu-item menu-item-type-custom menu-item-object-custom menu-item-2285">
-                                                                <a href="{{ route('landing.page') }}#vp">Comunidad VP360°</a>
+                                                                <a href="#">Comunidad VP360°</a>
                                                             </li>
                                                             <li id="menu-item-2286" class="et_pb_menu_page_id-2286 menu-item menu-item-type-custom menu-item-object-custom menu-item-2286">
-                                                                <a href="{{ route('landing.faqs') }}">FaQs</a>
+                                                                <a href="#">FaQs</a>
                                                             </li>
                                                             <li id="menu-item-2287" class="et_pb_menu_page_id-2287 menu-item menu-item-type-custom menu-item-object-custom menu-item-2287">
-                                                                <a href="{{ route('landing.contacto') }}">Contacto</a>
+                                                                <a href="#">Contacto</a>
                                                             </li>
                                                         </ul>
                                                     </nav>
@@ -7126,25 +7200,25 @@
                                                     <nav class="et-menu-nav">
                                                         <ul id="menu-menu-nuevo-1" class="et-menu nav">
                                                             <li class="et_pb_menu_page_id-2281 menu-item menu-item-type-custom menu-item-object-custom menu-item-2281">
-                                                                <a href="{{ route('landing.page') }}#nosotros">Acerca de nosotros</a>
+                                                                <a href="##nosotros">Acerca de nosotros</a>
                                                             </li>
                                                             <li class="et_pb_menu_page_id-2282 menu-item menu-item-type-custom menu-item-object-custom menu-item-2282">
-                                                                <a href="{{ route('landing.page') }}#funcion">Características</a>
+                                                                <a href="##funcion">Características</a>
                                                             </li>
                                                             <li class="et_pb_menu_page_id-2283 menu-item menu-item-type-custom menu-item-object-custom menu-item-2283">
-                                                                <a href="{{ route('landing.page') }}#alcances">Alcances</a>
+                                                                <a href="##alcances">Alcances</a>
                                                             </li>
                                                             <li class="et_pb_menu_page_id-2284 menu-item menu-item-type-custom menu-item-object-custom menu-item-2284">
-                                                                <a href="{{ route('landing.page') }}#cobertura">Cobertura</a>
+                                                                <a href="##cobertura">Cobertura</a>
                                                             </li>
                                                             <li class="et_pb_menu_page_id-2285 menu-item menu-item-type-custom menu-item-object-custom menu-item-2285">
-                                                                <a href="{{ route('landing.page') }}#vp">Comunidad VP360°</a>
+                                                                <a href="##vp">Comunidad VP360°</a>
                                                             </li>
                                                             <li class="et_pb_menu_page_id-2286 menu-item menu-item-type-custom menu-item-object-custom menu-item-2286">
-                                                                <a href="{{ route('landing.faqs') }}">FaQs</a>
+                                                                <a href="#">FaQs</a>
                                                             </li>
                                                             <li class="et_pb_menu_page_id-2287 menu-item menu-item-type-custom menu-item-object-custom menu-item-2287">
-                                                                <a href="{{ route('landing.contacto') }}">Contacto</a>
+                                                                <a href="#">Contacto</a>
                                                             </li>
                                                         </ul>
                                                     </nav>
@@ -7197,7 +7271,7 @@
                                                         <input id="et_pb_signup_email" class="input" type="password" placeholder="Contraseña" name="password" value="{{ old('password') }}"/>
                                                     </p>
                                                     <p class="et_pb_newsletter_button_wrap">
-                                                        <a class="et_pb_newsletter_button et_pb_button" href="#" data-icon="&#x24;" id="login" onclick="document.getElementById('form_login').submit();">
+                                                        <a class="et_pb_newsletter_button et_pb_button" href="#" data-icon="&#x24;" id="login">
                                                             <span class="et_subscribe_loader"></span>
                                                             <span class="et_pb_newsletter_button_text">Iniciar sesión</span>
                                                         </a>
@@ -7209,6 +7283,12 @@
                                                 <input type="hidden" value="true" name="et_pb_signup_ip_address"/>
                                                 <input type="hidden" value="8de068ae9eda1d50236144dea7cc8d8e" name="et_pb_signup_checksum"/>
                                                 <div id="turnstile-container" style="margin-left: 18px; margin-top: 10px"></div>
+                                                <div class="sso-separator">o</div>
+
+                                                <a href="{{ route('sso.google.redirect') }}" class="google-sso-button">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google logo">
+                                                    Iniciar sesión con Google
+                                                </a>
                                             </form>
                                         </div>
                                     </div>
@@ -7248,20 +7328,20 @@
                                 </div>
                                 <div class="et_pb_column et_pb_column_1_2 et_pb_column_12_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                     <div class="et_pb_button_module_wrapper et_pb_button_0_tb_body_wrapper et_pb_button_alignment_right et_pb_module ">
-                                        <a class="et_pb_button et_pb_button_0_tb_body et_pb_bg_layout_light" href="{{ route('landing.faqs') }}" data-icon="&#x24;">PREGUNTAS FRECUENTES</a>
+                                        <a class="et_pb_button et_pb_button_0_tb_body et_pb_bg_layout_light" href="#" data-icon="&#x24;">PREGUNTAS FRECUENTES</a>
                                     </div>
                                     <div class="et_pb_button_module_wrapper et_pb_button_1_tb_body_wrapper et_pb_button_alignment_right et_pb_module ">
-                                        <a class="et_pb_button et_pb_button_1_tb_body et_pb_bg_layout_light" href="{{ route('landing.contacto') }}" data-icon="&#x76;">CONTÁCTANOS AHORA</a>
+                                        <a class="et_pb_button et_pb_button_1_tb_body et_pb_bg_layout_light" href="#" data-icon="&#x76;">CONTÁCTANOS AHORA</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="et_pb_row et_pb_row_6_tb_body">
                                 <div class="et_pb_column et_pb_column_4_4 et_pb_column_13_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                     <div class="et_pb_button_module_wrapper et_pb_button_2_tb_body_wrapper et_pb_button_alignment_center et_pb_button_alignment_tablet_left et_pb_module ">
-                                        <a class="et_pb_button et_pb_button_2_tb_body et_pb_bg_layout_light" href="{{ route('landing.faqs') }}" data-icon="&#x24;">PREGUNTAS FRECUENTES</a>
+                                        <a class="et_pb_button et_pb_button_2_tb_body et_pb_bg_layout_light" href="#" data-icon="&#x24;">PREGUNTAS FRECUENTES</a>
                                     </div>
                                     <div class="et_pb_button_module_wrapper et_pb_button_3_tb_body_wrapper et_pb_button_alignment_center et_pb_button_alignment_tablet_left et_pb_module ">
-                                        <a class="et_pb_button et_pb_button_3_tb_body et_pb_bg_layout_light" href="{{ route('landing.contacto') }}" data-icon="&#x76;">CONTÁCTANOS AHORA</a>
+                                        <a class="et_pb_button et_pb_button_3_tb_body et_pb_bg_layout_light" href="#" data-icon="&#x76;">CONTÁCTANOS AHORA</a>
                                     </div>
                                 </div>
                             </div>
@@ -7272,14 +7352,14 @@
                                     <div class="et_pb_module et_pb_text et_pb_text_7_tb_body  et_pb_text_align_center et_pb_bg_layout_light">
                                         <div class="et_pb_text_inner">
                                             <p>
-                                                <a href="{{ route('landing.privacidad') }}">Aviso de privacidad</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <a href="{{ route('landing.condiciones') }}">Términos y condiciones</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <a href="{{ route('landing.arco') }}">Derechos ARCO</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a href="#">Aviso de privacidad</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a href="#">Términos y condiciones</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a href="#">Derechos ARCO</a>&nbsp;&nbsp;&nbsp;&nbsp;
                                                 <span style="color: rgba(0, 0, 0, 0.53);">
-                                                            <a href="{{ route('landing.uso') }}">Condiciones de uso</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            <a href="{{ route('landing.accesibilidad') }}">Accesibilidad</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            <a href="{{ route('landing.cookies') }}">Aviso sobre cookies</a>
-                                                        </span>
+                                                                    <a href="#">Condiciones de uso</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                    <a href="#">Accesibilidad</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                    <a href="#">Aviso sobre cookies</a>
+                                                                </span>
                                             </p>
                                         </div>
                                     </div>
@@ -7329,7 +7409,7 @@
                 "target": "_self"
             }*/];
 </script>
-<script type='text/javascript' src='../vp360.landing.assets/wp-includes/js/hoverintent-js.min.js?ver=2.2.1' id='hoverintent-js-js'></script>
+<script type='text/javascript' src='{{ asset('vp360.landing.assets/wp-includes/js/hoverintent-js.min.js?ver=2.2.1') }}' id='hoverintent-js-js'></script>
 <script type='text/javascript' id='admin-bar-js-before'>
     (function() {
         function wpforms_admin_bar_menu_init() {
@@ -7355,10 +7435,10 @@
         ;document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
     }());
 </script>
-<script type='text/javascript' src='../vp360.landing.assets/wp-includes/js/admin-bar.min.js?ver=6.0' id='admin-bar-js'></script>
-<script type='text/javascript' src='../vp360.landing.assets/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js?ver=7.1.3' id='siteground-optimizer-lazy-sizes-js-js'></script>
-<script type='text/javascript' src='../vp360.landing.assets/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
-<script type='text/javascript' src='../vp360.landing.assets/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='{{ asset('vp360.landing.assets/wp-includes/js/admin-bar.min.js?ver=6.0') }}' id='admin-bar-js'></script>
+<script type='text/javascript' src='{{ asset('vp360.landing.assets/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js?ver=7.1.3') }}' id='siteground-optimizer-lazy-sizes-js-js'></script>
+<script type='text/javascript' src='{{ asset('vp360.landing.assets/wp-includes/js/jquery/jquery.min.js?ver=3.6.0') }}' id='jquery-core-js'></script>
+<script type='text/javascript' src='{{ asset('vp360.landing.assets/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2') }}' id='jquery-migrate-js'></script>
 <script type='text/javascript' id='jquery-js-after'>
     jqueryParams.length && $.each(jqueryParams, function(e, r) {
         if ("function" == typeof r) {
@@ -7425,8 +7505,8 @@
     var et_pb_box_shadow_elements = [];
     /* ]]> */
 </script>
-<script type='text/javascript' src='../vp360.landing.assets/wp-content/themes/Divi/js/scripts.min.js?ver=4.17.4' id='divi-custom-script-js'></script>
-<script type='text/javascript' src='../vp360.landing.assets/wp-content/uploads/siteground-optimizer-assets/et-core-common.min.js?ver=4.17.4' id='et-core-common-js'></script>
+<script type='text/javascript' src='{{ asset('vp360.landing.assets/wp-content/themes/Divi/js/scripts.min.js?ver=4.17.4') }}' id='divi-custom-script-js'></script>
+<script type='text/javascript' src='{{ asset('vp360.landing.assets/wp-content/uploads/siteground-optimizer-assets/et-core-common.min.js?ver=4.17.4') }}' id='et-core-common-js'></script>
 <script type="text/javascript">
     (function() {
         var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?' + cs + '(\\s+|$)');
@@ -7437,6 +7517,264 @@
         // The customizer requires postMessage and CORS (if the site is cross domain).
         b[c] += (window.postMessage && request ? ' ' : ' no-') + cs;
     }());
+</script>
+<script>
+    function switchToMFA(userEmail) {
+        const fieldsContainer = document.querySelector('.et_pb_newsletter_fields');
+        const loginElements = Array.from(fieldsContainer.children);
+
+        const ssoSeparator = document.querySelector('.sso-separator');
+        const googleButton = document.querySelector('.google-sso-button');
+
+        loginElements.forEach(el => {
+            el.classList.add('fade-out');
+        });
+
+        if (ssoSeparator) ssoSeparator.classList.add('fade-out');
+        if (googleButton) googleButton.classList.add('fade-out');
+
+        setTimeout(() => {
+            fieldsContainer.innerHTML = '';
+            document.querySelector('.et_pb_text_inner h2 span').textContent = 'Verificación requerida';
+
+            const infoMessage = document.createElement('p');
+            infoMessage.className = 'mfa-info-message fade-in';
+            infoMessage.style.cssText = 'color: #00142d; text-align: center; margin-bottom: 20px; font-size: 16px; padding: 10px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #dee2e6;';
+            infoMessage.innerHTML = `Hemos enviado un código de 6 dígitos a: <strong>${userEmail}</strong>`;
+
+            const codeField = document.createElement('p');
+            codeField.className = 'et_pb_newsletter_field fade-in';
+            codeField.innerHTML = `<input id="codigo_verificacion" class="input" type="text" placeholder="Ingresa el código" name="codigo_verificacion" maxlength="6" style="text-align: center; font-size: 18px; letter-spacing: 3px; width: 100%;" required />`;
+
+            const verifyButtonWrap = document.createElement('p');
+            verifyButtonWrap.className = 'et_pb_newsletter_button_wrap fade-in';
+            verifyButtonWrap.innerHTML = `<a class="et_pb_newsletter_button et_pb_button" href="#" id="verify_code"><span class="et_pb_newsletter_button_text">Verificar código</span></a>`;
+
+            const bottomLinksWrap = document.createElement('p');
+            bottomLinksWrap.className = 'fade-in';
+            bottomLinksWrap.style.cssText = 'text-align: center; margin-top: 20px;';
+            bottomLinksWrap.innerHTML = `
+                <button type="button" id="resend_code" style="background: none; border: none; color: #6c757d; text-decoration: underline; cursor: pointer; font-size: 14px; padding: 0 10px;">Reenviar código</button>
+                <span style="color: #6c757d;">|</span>
+                <button type="button" onclick="location.reload()" style="background: none; border: none; color: #6c757d; text-decoration: underline; cursor: pointer; font-size: 14px; padding: 0 10px;">Volver al inicio de sesión</button>
+            `;
+
+            fieldsContainer.appendChild(infoMessage);
+            fieldsContainer.appendChild(codeField);
+            fieldsContainer.appendChild(verifyButtonWrap);
+            fieldsContainer.appendChild(bottomLinksWrap);
+
+            document.getElementById('verify_code').onclick = (e) => { e.preventDefault(); verifyMFACode(); };
+            document.getElementById('resend_code').onclick = (e) => { e.preventDefault(); resendMFACode(); };
+
+            const codigoInput = document.getElementById('codigo_verificacion');
+
+            codigoInput.focus();
+
+            codigoInput.addEventListener('input', clearMfaMessages);
+            addMFAValidation();
+
+        }, 400);
+
+        const turnstileContainer = document.getElementById('turnstile-container');
+        if (turnstileContainer) turnstileContainer.style.display = 'none';
+    }
+
+    function addMFAValidation() {
+        const codigoInput = document.getElementById('codigo_verificacion');
+        if (codigoInput) {
+            codigoInput.addEventListener('input', function(e) {
+                this.value = this.value.replace(/[^0-9]/g, '');
+                if (this.value.length === 6) {
+                    setTimeout(() => verifyMFACode(), 300);
+                }
+            });
+        }
+    }
+
+    async function handleLoginSubmit(event) {
+        event.preventDefault();
+
+        const form = document.getElementById('form_login');
+        const formData = new FormData(form);
+        const button = document.getElementById('login');
+        const buttonText = button.querySelector('.et_pb_newsletter_button_text');
+
+        buttonText.textContent = 'Enviando...';
+        button.classList.add('et_pb_button_text_loading');
+        buttonText.style.visibility = 'visible'
+
+        try {
+            const response = await fetch('{{ route('login') }}', {
+                method: 'POST',
+                headers: {
+                    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+                    'Accept': 'application/json',
+                },
+                body: formData,
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                if (response.status === 422 && data.errors) {
+                    const errorMsg = Object.values(data.errors).flat().join(' ');
+                    showLoginError(errorMsg || 'Error de validación.');
+                } else {
+                    showLoginError(data.message || 'Ha ocurrido un error.');
+                }
+            } else {
+                if (data.mfa_required) {
+                    switchToMFA(data.email);
+                }
+            }
+        } catch (error) {
+            showLoginError('Error de conexión. Inténtalo de nuevo.');
+            console.error('Error en la petición de login:', error);
+        } finally {
+            button.classList.remove('et_pb_button_text_loading');
+            buttonText.textContent = 'Iniciar sesión';
+            buttonText.style.visibility = '';
+        }
+    }
+
+    async function resendMFACode() {
+        const button = document.getElementById('resend_code');
+        const originalText = button.textContent;
+        button.textContent = 'Enviando...';
+        button.style.pointerEvents = 'none';
+
+        try {
+            const response = await fetch('{{ route('login.reenviar-codigo') }}', {
+                method: 'POST',
+                headers: {
+                    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+                    'Accept': 'application/json',
+                }
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                showMFAMessage(data.message || 'Error al reenviar el código.', true);
+            } else {
+                showMFAMessage(data.message);
+                document.getElementById('codigo_verificacion').value = '';
+                document.getElementById('codigo_verificacion').focus();
+            }
+
+        } catch (error) {
+            showMFAMessage('Error de conexión.', true);
+        } finally {
+            setTimeout(() => {
+                button.textContent = originalText;
+                button.style.pointerEvents = 'auto';
+            }, 1000);
+        }
+    }
+
+    async function verifyMFACode() {
+        const code = document.getElementById('codigo_verificacion').value;
+        const button = document.getElementById('verify_code');
+        const buttonText = button.querySelector('.et_pb_newsletter_button_text');
+
+        if (code.length !== 6) {
+            showMFAMessage('Por favor, ingresa un código de 6 dígitos.', true);
+            return;
+        }
+
+        buttonText.textContent = 'Verificando...';
+        button.style.pointerEvents = 'none';
+
+        try {
+            const response = await fetch('{{ route('login.verificar-codigo') }}', {
+                method: 'POST',
+                cache: 'no-store',
+                headers: {
+                    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    codigo_verificacion: code
+                })
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                showMFAMessage(data.message || 'Ha ocurrido un error inesperado.', true);
+                buttonText.textContent = 'Verificar código';
+                button.style.pointerEvents = 'auto';
+            } else {
+                showMFAMessage('¡Éxito! Redirigiendo...');
+                window.location.href = data.redirect_url;
+            }
+
+        } catch (error) {
+            showMFAMessage('Error de conexión. Inténtalo de nuevo.', true);
+            buttonText.textContent = 'Verificar código';
+            button.style.pointerEvents = 'auto';
+        }
+    }
+
+    function showMFAMessage(message, isError = false) {
+        const existingMsg = document.querySelector('.mfa-status-message');
+        if (existingMsg) existingMsg.remove();
+
+        const messageDiv = document.createElement('div');
+        messageDiv.className = 'mfa-status-message';
+        const color = isError ? '#a33636' : '#28a745';
+        messageDiv.style.cssText = `color: ${color}; font-size: 16px; text-align: center; margin-bottom: 15px; transition: opacity 0.3s;`;
+        messageDiv.textContent = message;
+
+        const fieldsContainer = document.querySelector('.et_pb_newsletter_fields');
+        fieldsContainer.parentNode.insertBefore(messageDiv, fieldsContainer);
+
+        setTimeout(() => {
+            messageDiv.style.opacity = '0';
+            setTimeout(() => messageDiv.remove(), 300);
+        }, 3000);
+    }
+
+    function showLoginError(message) {
+        let errorDiv = document.querySelector('.login-error-message');
+        if (!errorDiv) {
+            errorDiv = document.createElement('div');
+            errorDiv.className = 'login-error-message';
+            errorDiv.style.cssText = 'color: #a33636; font-size: 17px; text-align: center; margin-bottom: 15px;';
+            const newsletterForm = document.querySelector('.et_pb_newsletter_form');
+            newsletterForm.parentNode.insertBefore(errorDiv, newsletterForm);
+        }
+        errorDiv.textContent = message;
+    }
+
+    function clearMfaMessages() {
+        const messageDiv = document.querySelector('.mfa-status-message');
+        if (messageDiv) {
+            messageDiv.style.opacity = '0';
+            setTimeout(() => messageDiv.remove(), 200);
+        }
+    }
+
+    function clearLoginErrors() {
+        const errorDiv = document.querySelector('.login-error-message');
+        if (errorDiv) {
+            errorDiv.style.opacity = '0';
+            setTimeout(() => errorDiv.remove(), 200);
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const loginForm = document.getElementById('form_login');
+        if(loginForm) {
+            const loginButton = document.getElementById('login');
+            if(loginButton) {
+                loginButton.onclick = handleLoginSubmit;
+            }
+            loginForm.addEventListener('submit', (e) => e.preventDefault());
+        }
+    });
 </script>
 </body>
 </html>
