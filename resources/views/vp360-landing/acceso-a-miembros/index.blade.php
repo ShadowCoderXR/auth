@@ -7271,6 +7271,10 @@
                                                         <input id="et_pb_signup_email" class="input" type="password" placeholder="Contraseña" name="password" value="{{ old('password') }}"/>
                                                     </p>
                                                     <p class="et_pb_newsletter_button_wrap">
+{{--                                                        <a class="et_pb_newsletter_button et_pb_button" href="#" data-icon="&#x24;" id="login" onclick="document.getElementById('form_login').submit();">--}}
+{{--                                                            <span class="et_subscribe_loader"></span>--}}
+{{--                                                            <span class="et_pb_newsletter_button_text">Iniciar sesión</span>--}}
+{{--                                                        </a>--}}
                                                         <a class="et_pb_newsletter_button et_pb_button" href="#" data-icon="&#x24;" id="login">
                                                             <span class="et_subscribe_loader"></span>
                                                             <span class="et_pb_newsletter_button_text">Iniciar sesión</span>
@@ -7283,6 +7287,7 @@
                                                 <input type="hidden" value="true" name="et_pb_signup_ip_address"/>
                                                 <input type="hidden" value="8de068ae9eda1d50236144dea7cc8d8e" name="et_pb_signup_checksum"/>
                                                 <div id="turnstile-container" style="margin-left: 18px; margin-top: 10px"></div>
+                                                <!-- AQUIIIIIII! -->
                                                 <div class="sso-separator">o</div>
 
                                                 <a href="{{ route('sso.google.redirect') }}" class="google-sso-button">

@@ -18,11 +18,22 @@ Route::post('/register', [RegisteredUserController::class, 'store'])
                 ->middleware('guest');
 
 Route::get('/login', [AuthenticatedSessionController::class, 'create'])
-                ->middleware('guest')
+                ->middleware(['guest'])
                 ->name('login');
 
 Route::post('/login', [AuthenticatedSessionController::class, 'store'])
-                ->middleware('guest');
+                ->middleware(['guest']);
+
+Route::post('/login/reenviar-codigo', [AuthenticatedSessionController::class, 'reenviarCodigo'])
+                ->middleware(['guest'])
+                ->name('login.reenviar-codigo');
+
+Route::post('/login/verificar-codigo', [AuthenticatedSessionController::class, 'verificarCodigo'])
+                ->middleware(['guest'])
+                ->name('login.verificar-codigo');
+
+Route::get('/google/redirect', [AuthenticatedSessionController::class, 'redirect'])->name('sso.google.redirect');
+Route::get('/google/callback', [AuthenticatedSessionController::class, 'callback'])->name('sso.google.callback');
 
 Route::get('/forgot-password', [PasswordResetLinkController::class, 'create'])
                 ->middleware('guest')

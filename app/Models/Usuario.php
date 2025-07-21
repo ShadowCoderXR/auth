@@ -2,15 +2,29 @@
 
 namespace App\Models;
 
+use App\Models\Auth\CuentasSociales;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-class User extends Authenticatable
+/**
+ * @method static where(string $string, mixed $email)
+ * @property mixed $id
+ * @property mixed $email
+ */
+class Usuario extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
+
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'usuarios';
 
     /**
      * The attributes that are mass assignable.
